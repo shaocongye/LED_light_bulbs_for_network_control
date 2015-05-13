@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LED light bulbs for network control.xcodeproj">
+      location = "self:LED_light_bulbs_for_network_control.xcodeproj">
    </FileRef>
 </Workspace>

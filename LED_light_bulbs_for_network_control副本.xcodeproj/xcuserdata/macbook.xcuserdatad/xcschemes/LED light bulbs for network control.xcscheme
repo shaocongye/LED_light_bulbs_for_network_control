@@ -7,7 +7,7 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "YES"
+            buildForTesting = "NO"
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
@@ -15,9 +15,23 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FAA93B5419B56B2A000678CF"
-               BuildableName = "LED light bulbs for network control.app"
-               BlueprintName = "LED light bulbs for network control"
-               ReferencedContainer = "container:LED light bulbs for network control.xcodeproj">
+               BuildableName = "&#x91d1;&#x8272;&#x667a;&#x80fd;.app"
+               BlueprintName = "LED_light_bulbs_for_network_control"
+               ReferencedContainer = "container:LED_light_bulbs_for_network_control.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FAA93B7419B56B2A000678CF"
+               BuildableName = "LED light bulbs for network controlTests.xctest"
+               BlueprintName = "LED_light_bulbs_for_network_controlTests"
+               ReferencedContainer = "container:LED_light_bulbs_for_network_control.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,23 +43,28 @@
       buildConfiguration = "Debug">
       <Testables>
          <TestableReference
-            skipped = "NO">
+            skipped = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FAA93B7419B56B2A000678CF"
                BuildableName = "LED light bulbs for network controlTests.xctest"
-               BlueprintName = "LED light bulbs for network controlTests"
-               ReferencedContainer = "container:LED light bulbs for network control.xcodeproj">
+               BlueprintName = "LED_light_bulbs_for_network_controlTests"
+               ReferencedContainer = "container:LED_light_bulbs_for_network_control.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "LED_light_bulbs_for_network_controlTests/testExample">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FAA93B5419B56B2A000678CF"
-            BuildableName = "LED light bulbs for network control.app"
-            BlueprintName = "LED light bulbs for network control"
-            ReferencedContainer = "container:LED light bulbs for network control.xcodeproj">
+            BuildableName = "&#x91d1;&#x8272;&#x667a;&#x80fd;.app"
+            BlueprintName = "LED_light_bulbs_for_network_control"
+            ReferencedContainer = "container:LED_light_bulbs_for_network_control.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +81,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FAA93B5419B56B2A000678CF"
-            BuildableName = "LED light bulbs for network control.app"
-            BlueprintName = "LED light bulbs for network control"
-            ReferencedContainer = "container:LED light bulbs for network control.xcodeproj">
+            BuildableName = "&#x91d1;&#x8272;&#x667a;&#x80fd;.app"
+            BlueprintName = "LED_light_bulbs_for_network_control"
+            ReferencedContainer = "container:LED_light_bulbs_for_network_control.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,23 +93,24 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FAA93B5419B56B2A000678CF"
-            BuildableName = "LED light bulbs for network control.app"
-            BlueprintName = "LED light bulbs for network control"
-            ReferencedContainer = "container:LED light bulbs for network control.xcodeproj">
+            BuildableName = "&#x91d1;&#x8272;&#x667a;&#x80fd;.app"
+            BlueprintName = "LED_light_bulbs_for_network_control"
+            ReferencedContainer = "container:LED_light_bulbs_for_network_control.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Debug">
+      buildConfiguration = "Distribution">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Distribution"
+      customArchiveName = "ShowLight LED Controlor"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
