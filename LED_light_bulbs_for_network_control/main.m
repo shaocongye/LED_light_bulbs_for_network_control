@@ -1,6 +1,6 @@
 //
 //  main.m
-//  LED light bulbs for network control
+//  LED_light_bulbs_for_network_control
 //
 //  Created by mac book on 14-9-2.
 //  Copyright (c) 2014年 ___FULLUSERNAME___. All rights reserved.
